@@ -1,3 +1,7 @@
+## NOTE
+Forked version modified to work with Gruvbox
+
+
 ## GNU Emacs / N Λ N O
 
 **GNU Emacs / N Λ N O** is a set of configuration files for GNU Emacs
