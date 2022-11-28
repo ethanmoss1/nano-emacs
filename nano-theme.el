@@ -260,7 +260,7 @@
 (defun nano-theme--bookmark ()
   "Derive bookmark faces from nano faces."
   (with-eval-after-load 'bookmark
-    (set-face 'bookmark-menu-heading                  'nano-face-strong)
+    ;; (set-face 'bookmark-menu-heading                  'nano-face-strong)
     (set-face 'bookmark-menu-bookmark                'nano-face-salient)))
 
 
@@ -518,15 +518,15 @@ function is a convenience wrapper used by `describe-package-1'."
 (defun nano-theme--mu4e ()
   "Derive mu4e faces from nano faces."
   (with-eval-after-load 'mu4e
-    (set-face 'mu4e-attach-number-face                'nano-face-strong)
-    (set-face 'mu4e-cited-1-face                       'nano-face-faded)
-    (set-face 'mu4e-cited-2-face                       'nano-face-faded)
-    (set-face 'mu4e-cited-3-face                       'nano-face-faded)
-    (set-face 'mu4e-cited-4-face                       'nano-face-faded)
-    (set-face 'mu4e-cited-5-face                       'nano-face-faded)
-    (set-face 'mu4e-cited-6-face                       'nano-face-faded)
-    (set-face 'mu4e-cited-7-face                       'nano-face-faded)
-    (set-face 'mu4e-compose-header-face                'nano-face-faded)
+    ;; (set-face 'mu4e-attach-number-face                'nano-face-strong)
+    ;; (set-face 'mu4e-cited-1-face                       'nano-face-faded)
+    ;; (set-face 'mu4e-cited-2-face                       'nano-face-faded)
+    ;; (set-face 'mu4e-cited-3-face                       'nano-face-faded)
+    ;; (set-face 'mu4e-cited-4-face                       'nano-face-faded)
+    ;; (set-face 'mu4e-cited-5-face                       'nano-face-faded)
+    ;; (set-face 'mu4e-cited-6-face                       'nano-face-faded)
+    ;; (set-face 'mu4e-cited-7-face                       'nano-face-faded)
+    ;; (set-face 'mu4e-compose-header-face                'nano-face-faded)
     (set-face 'mu4e-compose-separator-face             'nano-face-faded)
     (set-face 'mu4e-contact-face                     'nano-face-salient)
     (set-face 'mu4e-context-face                       'nano-face-faded)
@@ -543,7 +543,7 @@ function is a convenience wrapper used by `describe-package-1'."
     (set-face 'mu4e-highlight-face                    'nano-face-popout)
     (set-face 'mu4e-link-face                        'nano-face-salient)
     (set-face 'mu4e-modeline-face                      'nano-face-faded)
-    (set-face 'mu4e-moved-face                         'nano-face-faded)
+    ;; (set-face 'mu4e-moved-face                         'nano-face-faded)
     (set-face 'mu4e-ok-face                            'nano-face-faded)
     (set-face 'mu4e-region-code                        'nano-face-faded)
     (set-face 'mu4e-replied-face                     'nano-face-default)
@@ -554,7 +554,7 @@ function is a convenience wrapper used by `describe-package-1'."
     (set-face 'mu4e-unread-face                       'nano-face-strong)
     ;;(set-face-attribute 'mu4e-unread-face nil :weight 'regular)
     (set-face 'mu4e-url-number-face                    'nano-face-faded)
-    (set-face 'mu4e-view-body-face                   'nano-face-default)
+    ;; (set-face 'mu4e-view-body-face                   'nano-face-default)
     (set-face 'mu4e-warning-face                      'nano-face-popout)))
 
 

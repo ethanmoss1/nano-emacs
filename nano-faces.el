@@ -224,7 +224,7 @@ background color that is barely perceptible."
                       :foreground nano-color-foreground
                       :background nano-color-subtle
                       :box `(:line-width 1
-                                         :color ,nano-color-background
+                                         :color ,nano-color-subtle
                                          :style nil))
 
   (set-face-attribute 'nano-face-tag-default nil
@@ -244,7 +244,7 @@ background color that is barely perceptible."
                       :background nano-color-subtle
                       :inherit 'nano-face-strong
                       :box `(:line-width 1
-                                         :color ,nano-color-background
+                                         :color ,nano-color-subtle
                                          :style nil))
 
   (set-face-attribute 'nano-face-tag-strong nil
@@ -263,7 +263,7 @@ background color that is barely perceptible."
                       :foreground nano-color-background
                       :background nano-color-salient
                       :box `(:line-width 1
-                                         :color ,nano-color-background
+                                         :color ,nano-color-salient
                                          :style nil))
 
   (set-face-attribute 'nano-face-tag-salient nil
@@ -282,7 +282,7 @@ background color that is barely perceptible."
                       :foreground nano-color-background
                       :background nano-color-popout
                       :box `(:line-width 1
-                                         :color ,nano-color-background
+                                         :color ,nano-color-popout
                                          :style nil))
 
   (set-face-attribute 'nano-face-tag-popout nil
@@ -301,7 +301,7 @@ background color that is barely perceptible."
                       :foreground nano-color-background
                       :background nano-color-faded
                       :box `(:line-width 1
-                                         :color ,nano-color-background
+                                         :color ,nano-color-faded
                                          :style nil))
 
   (set-face-attribute 'nano-face-tag-faded nil
@@ -322,7 +322,7 @@ background color that is barely perceptible."
                       :foreground nano-color-background
                       :background nano-color-critical
                       :box `(:line-width 1
-                                         :color ,nano-color-background
+                                         :color ,nano-color-critical
                                          :style nil))
   (set-face-attribute 'nano-face-tag-critical nil
                       :foreground nano-color-background
